@@ -1,0 +1,32 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit logs & cache
+.streamlit/
+
+# Temporary outputs and large media
+outputs/
+!outputs/.gitkeep
+data/samples/temp_*
+
+# SQLite database files
+database/*.db
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# YOLO runs
+runs/
